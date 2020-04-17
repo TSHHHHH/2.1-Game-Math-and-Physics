@@ -22,18 +22,6 @@ public class Ball2D : MonoBehaviour {
 
         mRadius = GlobalVariable.BALL_SIZE / 2;
     }
-	
-	// Update is called once per frame
-	void Update () {
-
-        
-
-    }
-
-    private void FixedUpdate()
-    {
-     
-    }
 
     public bool isCollidingWith(float x, float y)
     {
@@ -123,5 +111,4 @@ public class Ball2D : MonoBehaviour {
 
         transform.position = tempPos;
     }
-
 }
